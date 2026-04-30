@@ -1,12 +1,5 @@
 pipeline {
     agent any
- environment {
-    DIRECTORY_PATH = 'true'    
-    TESTING_ENVIROMENT = 'TEST1'
-    PRODUCTION_ENVIROMENT = 'Alastor Van Maanen'
-   } 
-
-
     stages {
         stage('Build') {
             steps {
@@ -65,5 +58,4 @@ pipeline {
             }
         }
     }
-
 }
