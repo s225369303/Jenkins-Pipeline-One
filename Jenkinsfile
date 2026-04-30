@@ -53,5 +53,11 @@ pipeline {
                 echo "Success! Application deployed"
             }
         }
+
+        stage('Testing connection') {
+            steps {
+                echo "Testing Jenkins"
+            }
+        }
     }
 }
