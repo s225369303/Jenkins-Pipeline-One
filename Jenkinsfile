@@ -52,10 +52,6 @@ pipeline {
                 sleep (4)
                 echo "Success! Application deployed"
             }
-        stage('Destroy') {
-            steps {
-                echo "Delete Me"
-            }
         }
     }
 }
