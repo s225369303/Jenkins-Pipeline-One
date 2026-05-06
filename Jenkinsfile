@@ -54,11 +54,5 @@ pipeline {
             }
         }
 
-                stage('Testing connection') {
-            steps {
-                echo "Testing Jenkins"
-            }
-        }
-
     }
 }
